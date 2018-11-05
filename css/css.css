@@ -1,0 +1,13 @@
+/*display object on the same row*/
+.travelimage, .logoresize, .headercontainer, .footercontainer {
+		display: inline-block;
+}
+
+.headercontainer, .footercontainer {
+	background-color: black;
+	color:white;
+}
+
+.maintopiccontainer {
+	background-color: grey;
+}
