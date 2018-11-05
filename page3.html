@@ -15,23 +15,33 @@
 	</head>
 	
 	<body class="bodystyle">
-		<div id="headercontainer" class="headercontainer">
+		<!--div id="headercontainer" class="headercontainer">
 			<div id="logo" class="logoresize"><img class="circle" src="/img/blog_logo.png" alt="About this Blog Space"/></div>
 			<div id="welcomesentence">ABOUT</div>
-		</div>
+		</div-->
+		<!--header-->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<div id="logo" class="logoresize"><img class="rounded-circle" src="/img/blog_logo.png" alt="About this Blog Space"/></div>
+					<div id="welcomesentence"><a class="nav-link logoresize" href="#">ABOUT</a></div>
+					
+				</li>   
+			</ul>
+		</nav>
 		<main>
 			<section>
-				<div id="maintopiccontainer" class="maintopiccontainer">
-					<h1> ABOUT </h1>
+				<div class="jumbotron jumbotron-fluid">
+					<div class="container">
+						<h1 style="float:right"> ABOUT </h1>      
+					</div>
 				</div>
 			</section>
 			<section >
 				<div id="contentcontainer"> 
 					<div>
-						<div class="div_img">
+						<div class="article_content">
 							<img src="/img/tracyphan.jpg"/>
-						</div>
-						<div class="article_content">
 							<div class="author_name">Name</div>
 							<div class="author_title">Job Title</div>
 							<div class="blog_summary">
@@ -41,10 +51,8 @@
 						</div>
 					</div>
 					<div>
-						<div class="article_img">
+						<div class="article_content">
 							<img src="/img/benmorris.jpg"/>
-						</div>
-						<div class="article_content">
 							<div class="author_name">Name</div>
 							<div class="author_title">Job Title</div>
 							<div class="blog_summary">
@@ -52,12 +60,11 @@
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 							</div>
 						</div>
+						</div>
 					</div>
 					<div>
-						<div class="article_img">
+						<div class="article_content">
 							<img src="/img/tracyphan.jpg"/>
-						</div>
-						<div id="article_content">
 							<div class="author_name">Name</div>
 							<div class="author_title">Job Title</div>
 							<div class="blog_summary">
@@ -67,10 +74,8 @@
 						</div>
 					</div>
 					<div>
-						<div class="article_img">
-							<img src="/img/benmorris.jpg"/>
-						</div>
 						<div class="article_content">
+							<img src="/img/benmorris.jpg"/>
 							<div class="author_name">Name</div>
 							<div class="author_title">Job Title</div>
 							<div class="blog_summary">
@@ -78,25 +83,11 @@
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 							</div>
 						</div>
+						</div>
 					</div>
 					<div>
-						<div class="article_img">
+						<div class="article_content">
 							<img src="/img/tracyphan.jpg"/>
-						</div>
-						<div class="article_content">
-							<div class="author_name">Name</div>
-							<div class="author_title">Job Title</div>
-							<div class="blog_summary">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="article_img">
-							<img src="/img/benmorris.jpg"/>
-						</div>
-						<div class="article_content">
 							<div class="author_name">Name</div>
 							<div class="author_title">Job Title</div>
 							<div class="blog_summary">
@@ -109,11 +100,15 @@
 			</section>
 		
 		</main>
-		<div class="footercontainer">
-			<img src="/img/ficon1.jpg"/>
-			<img src="/img/ficon2.png"/>
-			<img src="/img/ficon3.jpg"/>
-			<img src="/img/ficon4.jpg"/>
-		</div>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+			<ul class="navbar-nav">
+				<li class="nav-item active footercontainer">
+					<img class="rounded-circle" src="/img/ficon1.jpg"/>
+					<img class="rounded-circle" src="/img/ficon2.png"/>
+					<img class="rounded-circle" src="/img/ficon3.jpg"/>
+					<img class="rounded-circle" src="/img/ficon4.jpg"/>
+				</li>		   
+			</ul>
+		</nav>
 	</body>
 </html>
